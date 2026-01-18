@@ -38,3 +38,9 @@ body {
   padding-inline: 16px;
   padding-bottom: 72px;
 }
+
+.message-title {
+  font-weight: 700;
+  text-align: center;
+  line-height: 32px;
+}
