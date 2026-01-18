@@ -115,6 +115,10 @@ body {
       img {
         padding-right: 3px;
       }
+
+      h4 {
+        color: #5F6D7E;
+      }
     }
   }
 
@@ -127,7 +131,8 @@ body {
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 
-    display: flex;
+    display: inline-flex;
+    align-items: center;
   }
 
   .icon-right-white {
