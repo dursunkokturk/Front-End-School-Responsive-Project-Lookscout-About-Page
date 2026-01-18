@@ -91,3 +91,46 @@ body {
     }
   }
 }
+
+.branding-proposal {
+  padding-bottom: 32px;
+
+  .branding-title {
+    font-size: 28px;
+    color: #272D37;
+    padding-inline: 16px;
+    line-height: 36px;
+    padding-bottom: 24px;
+  }
+
+  .branding-items {
+    padding-bottom: 32px;
+
+    .branding-item-1,
+    .branding-item-2,
+    .branding-item-3 {
+      display: flex;
+      padding-inline: 16px;
+
+      img {
+        padding-right: 3px;
+      }
+    }
+  }
+
+  a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #437EF7;
+    margin-left: 16px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+
+    display: flex;
+  }
+
+  .icon-right-white {
+    padding-left: 6px;
+  }
+}
