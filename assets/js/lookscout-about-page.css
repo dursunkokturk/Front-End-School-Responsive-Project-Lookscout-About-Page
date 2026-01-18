@@ -4,8 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Inter;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  padding-bottom: 32px;
+}
+
+.sector-information {
+  color: #437EF7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 32px;
 }
