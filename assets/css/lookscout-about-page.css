@@ -139,3 +139,10 @@ body {
     padding-left: 6px;
   }
 }
+
+.desktop-computer {
+  width: 343px;
+  height: 343px;
+  display: block;
+  margin: 0 auto;
+}
