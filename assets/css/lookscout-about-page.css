@@ -196,6 +196,7 @@ body {
     font-weight: 700;
     line-height: 32px;
   }
+
   h4 {
     color: #5F6D7E;
     line-height: 24px
@@ -232,6 +233,22 @@ body {
   margin-left: 32px;
 }
 
-.social-media img{
+.social-media img {
   margin-right: 16px;
+}
+
+.frequently-asked-questions {
+  text-align: center;
+  margin-inline: 16px;
+
+  .title {
+    color: #272D37;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+  .text {
+    color: #5F6D7E;
+    line-height: 24px;
+  }
 }
