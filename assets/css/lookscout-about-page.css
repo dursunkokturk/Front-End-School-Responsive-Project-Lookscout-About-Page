@@ -189,4 +189,15 @@ body {
 .team-write {
   text-align: center;
   margin-inline: 32px;
+  margin-bottom: 32px;
+
+  h2 {
+    color: #272D37;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  h4 {
+    color: #5F6D7E;
+    line-height: 24px
+  }
 }
