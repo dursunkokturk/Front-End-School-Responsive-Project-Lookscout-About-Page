@@ -265,7 +265,7 @@ body {
   }
 }
 
-.sector-information {
+.sector-information-2 {
   background-color: #2B63D9;
 }
 
@@ -322,4 +322,18 @@ body {
   gap: 32px;
   place-items: center;
   padding-bottom: 32px;
+}
+
+.footer img {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  color: #5F6D7E;
+  line-height: 24px;
+  margin-inline: 16px;
+  margin-bottom: 24px;
 }
