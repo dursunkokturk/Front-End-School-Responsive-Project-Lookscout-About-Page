@@ -201,3 +201,37 @@ body {
     line-height: 24px
   }
 }
+
+.team-members {
+  margin-bottom: 80px;
+}
+
+.team-member {
+  margin-bottom: 32px;
+}
+
+.team-member-photo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.team-member-informations {
+  margin-inline: 32px;
+  margin-bottom: 12px;
+}
+
+.team-member-informations h4 {
+  font-size: 20px;
+  color: #272D37;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.social-media {
+  margin-left: 32px;
+}
+
+.social-media img{
+  margin-right: 16px;
+}
