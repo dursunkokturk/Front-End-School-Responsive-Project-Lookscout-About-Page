@@ -345,3 +345,11 @@ body {
   padding: 0 20px;
   margin-bottom: 16px;
 }
+
+strong {
+  color: black;
+}
+
+.company-detail a {
+  text-decoration: none;
+}
