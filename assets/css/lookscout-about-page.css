@@ -240,6 +240,7 @@ body {
 .frequently-asked-questions {
   text-align: center;
   margin-inline: 16px;
+  margin-bottom: 32px;
 
   .title {
     color: #272D37;
@@ -250,5 +251,15 @@ body {
   .text {
     color: #5F6D7E;
     line-height: 24px;
+  }
+}
+
+.questions {
+  margin-bottom: 120px;
+  
+  .question {
+    color: #272D37;
+    line-height: 24px;
+    padding: 16px 32px;
   }
 }
