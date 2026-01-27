@@ -140,6 +140,44 @@ body {
   }
 }
 
+.write-and-photo {
+  position: relative;
+  display: inline-block;
+}
+
+.write-and-photo img {
+  display: block;
+  max-width: 100%;
+}
+
+.write-and-photo h4,
+.write-and-photo a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.write-and-photo h4 {
+  font-size: 20px;
+  top: 45%;
+  text-align: center;
+  background: #fff;
+  padding: 10px 110px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.write-and-photo a {
+  top: 55%;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 26px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
 .desktop-computer {
   width: 343px;
   height: 343px;
