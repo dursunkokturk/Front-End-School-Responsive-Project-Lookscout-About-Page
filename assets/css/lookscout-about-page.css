@@ -353,3 +353,20 @@ strong {
 .company-detail a {
   text-decoration: none;
 }
+
+.company-detail a:active {
+  color: #5F6D7E;
+}
+
+.company-detail a:visited {
+  color: #5F6D7E;
+}
+
+.company-detail a:hover {
+  color: #5F6D7E;
+}
+
+.company-details {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
