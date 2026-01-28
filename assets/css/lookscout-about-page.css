@@ -368,7 +368,7 @@ strong {
 
 .company-details {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-icon {
@@ -388,10 +388,17 @@ strong {
   .sector-information {
     margin-top: 68px;
   }
-  .general-title, .subtitle {
+
+  .general-title,
+  .subtitle {
     margin-inline: 48px;
   }
+
   .subtitle {
     margin-bottom: 88px;
+  }
+
+  .grid-container-1 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
