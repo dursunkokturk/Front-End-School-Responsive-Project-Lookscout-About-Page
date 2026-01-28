@@ -269,18 +269,20 @@ body {
   background-color: #2B63D9;
 }
 
-.sector-information h5 {
+.sector-information-2 h5 {
   font-size: 14px;
   color: white;
+  text-align: center;
   font-weight: 600;
   line-height: 20px;
   padding-top: 32px;
   padding-bottom: 8px;
 }
 
-.sector-information h2 {
+.sector-information-2 h2 {
   font-size: 28px;
   color: white;
+  text-align: center;
   font-weight: 600;
   line-height: 36px;
   padding-bottom: 16px;
