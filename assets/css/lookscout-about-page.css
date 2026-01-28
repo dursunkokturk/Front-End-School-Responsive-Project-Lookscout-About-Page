@@ -434,6 +434,19 @@ strong {
     display: none;
   }
 
+  .company-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .company-detail h4 {
+    margin-bottom: 12px;
+  }
+
+  strong {
+    margin-bottom: 24px;
+  }
+
   .all-right-reserved {
     display: flex;
     justify-content: space-around;
