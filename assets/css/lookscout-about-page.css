@@ -374,4 +374,6 @@ strong {
 .footer-icon {
   display: flex;
   justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
 }
