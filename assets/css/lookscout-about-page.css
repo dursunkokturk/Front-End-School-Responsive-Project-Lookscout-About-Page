@@ -388,4 +388,7 @@ strong {
   .sector-information {
     margin-top: 68px;
   }
+  .general-title, .subtitle {
+    margin-inline: 48px;
+  }
 }
