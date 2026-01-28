@@ -383,3 +383,9 @@ strong {
   line-height: 24px;
   margin-bottom: 32px;
 }
+
+@media (width > 767px) {
+  .sector-information {
+    margin-top: 68px;
+  }
+}
