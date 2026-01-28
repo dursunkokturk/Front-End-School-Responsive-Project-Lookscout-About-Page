@@ -370,3 +370,8 @@ strong {
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
