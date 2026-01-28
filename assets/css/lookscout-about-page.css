@@ -420,6 +420,15 @@ strong {
     padding-bottom: 80px;
   }
 
+  .signup-and-login-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .signup {
+    padding: 10px 20px;
+  }
+
   .footer h4 {
     margin-bottom: 52px;
   }
