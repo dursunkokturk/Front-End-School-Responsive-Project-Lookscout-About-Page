@@ -410,4 +410,14 @@ strong {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .sector-information-2 {
+    padding-bottom: 80px;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
 }
