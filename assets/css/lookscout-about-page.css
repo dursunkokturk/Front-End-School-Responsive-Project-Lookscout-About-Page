@@ -391,4 +391,7 @@ strong {
   .general-title, .subtitle {
     margin-inline: 48px;
   }
+  .subtitle {
+    margin-bottom: 88px;
+  }
 }
