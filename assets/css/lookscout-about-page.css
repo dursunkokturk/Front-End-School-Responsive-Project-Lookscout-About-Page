@@ -399,6 +399,12 @@ strong {
   }
 
   .grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container-2 {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
