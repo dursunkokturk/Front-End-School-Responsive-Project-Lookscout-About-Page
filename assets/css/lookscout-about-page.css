@@ -146,8 +146,12 @@ body {
 
 .write-and-photo {
   position: relative;
-  display: inline-block;
+  width: 343px;
+  height: 343px;
+  margin: 0 auto;
   margin-bottom: 72px;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .write-and-photo img {
@@ -184,10 +188,60 @@ body {
 }
 
 .desktop-computer {
-  width: 343px;
-  height: 343px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
+}
+
+.overlay-card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px 24px 24px;
+  text-align: center;
+}
+
+.overlay-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #272D37;
+  margin-bottom: 14px;
+}
+
+.placeholder-lines {
+  margin-bottom: 14px;
+}
+
+.placeholder-line {
+  height: 8px;
+  background: #e2e6ea;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.placeholder-line.short {
+  width: 65%;
   margin: 0 auto;
+}
+
+.overlay-card a {
+  display: block;
+  background: #5b7fff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 0;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.overlay-card a:hover {
+  background: #4a6fee;
 }
 
 .team-write {
