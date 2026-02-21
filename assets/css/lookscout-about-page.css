@@ -15,6 +15,11 @@ body {
   padding-bottom: 32px;
 }
 
+.desktop-menu,
+.btns {
+  display: none;
+}
+
 .sector-information {
   color: #437EF7;
   font-size: 14px;
@@ -472,4 +477,71 @@ strong {
     justify-content: space-around;
     align-content: center;
   }
+}
+
+@media (width > 1109px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 0;
+  }
+
+  .header .desktop-menu,
+  .header .btns {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .desktop-menu {
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 0px;
+    padding-top: 0;
+  }
+
+  .header .desktop-menu li {
+    list-style: none;
+    margin-right: 32px;
+  }
+
+  .header .desktop-menu li a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .header .hamburger-menu {
+    display: none;
+  }
+
+  .header .btns {
+    display: flex;
+    align-items: center;
+    /* gap: 24px; */
+    padding: 20px;
+  }
+
+  .header .btns a {
+    text-decoration: none;
+    margin-right: 0px;
+  }
+
+  .header .btns .login {
+    color: #437EF7;
+    background-color: white;
+    margin-right: 24px;
+    padding-top: 23px;
+  }
+
+  .header .btns .signup {
+    color: white;
+    background-color: #437EF7;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
 }
