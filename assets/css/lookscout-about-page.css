@@ -48,96 +48,125 @@ body {
 
 .grid-container-1 {
   display: grid;
+}
 
-  .card-1,
-  .card-2,
-  .card-3,
-  .card-4,
-  .card-5,
-  .card-6 {
-    margin-inline: 18px;
-    margin-bottom: 40px;
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  margin-inline: 18px;
+  margin-bottom: 40px;
+}
 
-    img {
-      margin-bottom: 16px;
-    }
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 img {
+  margin-bottom: 16px;
+}
 
-    h3 {
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 28px;
-      letter-spacing: -2%;
-      margin-bottom: 8px;
-    }
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -2%;
+  margin-bottom: 8px;
+}
 
-    h4 {
-      font-size: 16px;
-      color: #5F6D7E;
-      line-height: 24px;
-      letter-spacing: -0.1px;
-      margin-bottom: 16px;
-    }
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 h4 {
+  font-size: 16px;
+  color: #5F6D7E;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-bottom: 16px;
+}
 
-    a {
-      font-size: 15px;
-      font-weight: 600;
-      text-decoration: none;
-      color: #437EF7;
-      display: flex;
-    }
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 a {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #437EF7;
+  display: flex;
+}
 
-    .icons-right {
-      margin-left: 6px;
-    }
-  }
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 .icons-right {
+  margin-left: 6px;
 }
 
 .branding-proposal {
   padding-bottom: 32px;
+}
 
-  .branding-title {
-    font-size: 28px;
-    color: #272D37;
-    padding-inline: 16px;
-    line-height: 36px;
-    padding-bottom: 24px;
-  }
+.branding-proposal .branding-title {
+  font-size: 28px;
+  color: #272D37;
+  padding-inline: 16px;
+  line-height: 36px;
+  padding-bottom: 24px;
+}
 
-  .branding-items {
-    padding-bottom: 32px;
+.branding-proposal .branding-items {
+  padding-bottom: 32px;
+}
 
-    .branding-item-1,
-    .branding-item-2,
-    .branding-item-3 {
-      display: flex;
-      padding-inline: 16px;
+.branding-proposal .branding-items .branding-item-1,
+.branding-proposal .branding-items .branding-item-2,
+.branding-proposal .branding-items .branding-item-3 {
+  display: flex;
+  padding-inline: 16px;
+}
 
-      img {
-        padding-right: 3px;
-      }
+.branding-proposal .branding-items .branding-item-1,
+.branding-proposal .branding-items .branding-item-2,
+.branding-proposal .branding-items .branding-item-3 img {
+  padding-right: 3px;
+}
 
-      h4 {
-        color: #5F6D7E;
-      }
-    }
-  }
+.branding-proposal .branding-items .branding-item-1,
+.branding-proposal .branding-items .branding-item-2,
+.branding-proposal .branding-items .branding-item-3 h4 {
+  color: #5F6D7E;
+}
 
-  a {
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    background-color: #437EF7;
-    margin-left: 16px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
+.branding-proposal a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  background-color: #437EF7;
+  margin-left: 16px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
 
-    display: inline-flex;
-    align-items: center;
-  }
+  display: inline-flex;
+  align-items: center;
+}
 
-  .icon-right-white {
-    padding-left: 6px;
-  }
+.branding-proposal .icon-right-white {
+  padding-left: 6px;
 }
 
 .write-and-photo {
@@ -190,17 +219,17 @@ body {
   text-align: center;
   margin-inline: 32px;
   margin-bottom: 32px;
+}
 
-  h2 {
-    color: #272D37;
-    font-weight: 700;
-    line-height: 32px;
-  }
+.team-write h2 {
+  color: #272D37;
+  font-weight: 700;
+  line-height: 32px;
+}
 
-  h4 {
-    color: #5F6D7E;
-    line-height: 24px
-  }
+.team-write h4 {
+  color: #5F6D7E;
+  line-height: 24px
 }
 
 .team-members {
@@ -241,28 +270,29 @@ body {
   text-align: center;
   margin-inline: 16px;
   margin-bottom: 32px;
-
-  .title {
-    color: #272D37;
-    font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 12px;
-  }
-
-  .text {
-    color: #5F6D7E;
-    line-height: 24px;
-  }
 }
+
+.frequently-asked-questions .title {
+  color: #272D37;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.frequently-asked-questions .text {
+  color: #5F6D7E;
+  line-height: 24px;
+}
+
 
 .questions {
   margin-bottom: 120px;
+}
 
-  .question {
-    color: #272D37;
-    line-height: 24px;
-    padding: 16px 32px;
-  }
+.questions .question {
+  color: #272D37;
+  line-height: 24px;
+  padding: 16px 32px;
 }
 
 .sector-information-2 {
@@ -424,7 +454,7 @@ strong {
     display: flex;
     flex-direction: row;
   }
-  
+
   .signup {
     padding: 10px 20px;
   }
