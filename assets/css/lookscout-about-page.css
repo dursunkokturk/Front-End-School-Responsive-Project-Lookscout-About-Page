@@ -177,12 +177,12 @@ body {
 }
 
 .write-and-photo a {
-  top: 55%;
+  /* top: 55%; */
   background: #007bff;
   color: #fff;
   text-decoration: none;
   padding: 10px 26px;
-  border-radius: 25px;
+  border-radius: 5px;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -200,7 +200,7 @@ body {
   left: 0;
   right: 0;
   background: rgba(255, 255, 255, 0.95);
-  padding: 20px 24px 24px;
+  /* padding: 20px 24px 24px; */
   text-align: center;
 }
 
@@ -292,7 +292,7 @@ body {
 }
 
 .social-media {
-  margin-left: 32px;
+  margin-top: 12px;
 }
 
 .social-media img {
