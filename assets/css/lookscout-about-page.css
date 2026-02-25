@@ -528,8 +528,16 @@ strong {
 
   .all-right-reserved {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .all-right-reserved h4 {
+    margin-top: 30px;
+  }
+
+  .footer-logos-all-reserved {
+    margin-right: 32px;
   }
 }
 
