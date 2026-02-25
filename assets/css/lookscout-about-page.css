@@ -598,4 +598,13 @@ strong {
     border-radius: 5px;
   }
 
+  .grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
