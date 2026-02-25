@@ -504,9 +504,9 @@ strong {
   }
 
   .logos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    place-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .footer-logos {
