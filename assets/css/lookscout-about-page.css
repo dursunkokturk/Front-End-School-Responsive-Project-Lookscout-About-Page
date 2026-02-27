@@ -449,7 +449,9 @@ strong {
   margin-bottom: 20px;
 }
 
-.all-right-reserved {
+.footer .all-right-reserved {
+  display: flex;
+  justify-content: center;
   color: #5F6D7E;
   line-height: 24px;
   margin-bottom: 32px;
