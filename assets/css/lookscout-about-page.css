@@ -657,10 +657,11 @@ strong {
 
   .footer {
     display: grid;
-    grid-template-columns: 1.2fr repeat(4, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: auto auto auto auto auto;
     gap: 40px;
     margin-top: 64px;
+    align-items: start;
   }
 
   .footer .footer-logo {
@@ -677,14 +678,24 @@ strong {
     grid-column: 1;
     grid-row: 3;
     display: flex;
-    gap: 15px;
+    gap: 16px;
   }
 
   /* Company Details Alani grid'in Kolonlarini Miras Alacak */
-  .company-details {
-    display: contents;
+  .footer .company-details {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
   }
 
+  .footer .company-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  
   /* 4 kolon dağılımı */
   .company-details .company-detail:nth-child(1) {
     grid-column: 2;
@@ -707,10 +718,11 @@ strong {
   }
 
   .footer .footer-icon {
+    grid-column: 1;
+    grid-row: 4;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
   }
 
   .footer .footer-icon img {
@@ -721,10 +733,11 @@ strong {
   }
 
   .footer .all-right-reserved {
+    grid-column: 1;
+    grid-row: 5;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
   }
 }
