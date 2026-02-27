@@ -449,9 +449,7 @@ strong {
   margin-bottom: 20px;
 }
 
-.footer .all-right-reserved {
-  display: flex;
-  justify-content: center;
+.all-right-reserved {
   color: #5F6D7E;
   line-height: 24px;
   margin-bottom: 32px;
@@ -511,13 +509,50 @@ strong {
     justify-content: center;
   }
 
-  .footer-logos {
-    display: none;
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    text-align: center;
   }
 
-  .company-details {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  .footer .footer-logo {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 auto;
+  }
+
+  .footer .footer-write {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+  }
+
+  .footer-logos {
+    display: block;
+  }
+
+  .footer .company-details {
+    grid-column: 1;
+    grid-row: 3;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 32px;
+  }
+
+  .footer .company-detail {
+    text-align: left;
+  }
+
+  .footer .footer-icon {
+    grid-column: 1;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
   }
 
   .company-detail h4 {
@@ -528,10 +563,12 @@ strong {
     margin-bottom: 24px;
   }
 
-  .all-right-reserved {
+  .footer .all-right-reserved {
+    grid-column: 1;
+    grid-row: 5;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 24px;
   }
 
   .all-right-reserved h4 {
