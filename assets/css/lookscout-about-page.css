@@ -412,7 +412,7 @@ body {
   margin-bottom: 16px;
 }
 
-strong {
+.company-details .company-detail strong {
   color: black;
   margin-bottom: 16px;
 }
@@ -423,6 +423,7 @@ strong {
 
 .company-detail a {
   text-decoration: none;
+  color: #5F6D7E;
 }
 
 .company-detail a:active {
