@@ -454,6 +454,9 @@ body {
   color: #5F6D7E;
   line-height: 24px;
   margin-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
 }
 
 @media (width > 767px) {
@@ -515,12 +518,14 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     text-align: center;
+    margin-top: 40px;
   }
 
   .footer .footer-logo {
     grid-column: 1;
     grid-row: 1;
     margin: 0 auto;
+    margin-bottom: 16px;
   }
 
   .footer .footer-write {
