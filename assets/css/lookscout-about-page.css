@@ -152,6 +152,9 @@ body {
   margin-bottom: 72px;
   border-radius: 12px;
   overflow: hidden;
+
+  display: grid;
+  place-items: center;
 }
 
 .write-and-photo img {
@@ -159,25 +162,13 @@ body {
   max-width: 100%;
 }
 
-.write-and-photo h4,
 .write-and-photo a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.write-and-photo h4 {
-  font-size: 20px;
-  top: 45%;
-  text-align: center;
-  background: #fff;
-  padding: 10px 110px;
-  border-radius: 8px;
-  margin: 0;
-}
-
 .write-and-photo a {
-  /* top: 55%; */
   background: #007bff;
   color: #fff;
   text-decoration: none;
@@ -185,47 +176,70 @@ body {
   border-radius: 5px;
   font-weight: 600;
   transition: all 0.3s ease;
+  bottom: 40px;
 }
 
 .desktop-computer {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  grid-area: 1 / 1;
 }
 
 .overlay-card {
+  grid-area: 1 / 1;
+  width: 85%;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.95);
-  /* padding: 20px 24px 24px; */
-  text-align: center;
+  top: 180px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .overlay-card h4 {
   font-size: 18px;
   font-weight: 700;
   color: #272D37;
-  margin-bottom: 14px;
+  text-align: center;
+}
+
+.overlay-btn {
+  display: inline-block;
+  background: #437EF7;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.start-button {
+  display: block;
+  background: #437EF7;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 0;
+  border-radius: 0 0 12px 12px;
+  /* Sadece alt köşeler yuvarlak */
+  transition: background 0.2s ease;
 }
 
 .placeholder-lines {
   margin-bottom: 14px;
-}
-
-.placeholder-line {
-  height: 8px;
-  background: #e2e6ea;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  width: 100%;
-}
-
-.placeholder-line.short {
-  width: 65%;
-  margin: 0 auto;
 }
 
 .overlay-card a {
@@ -702,7 +716,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .company-details .company-detail:nth-child(1) {
     grid-column: 2;
     grid-row: 1 / span 3;
