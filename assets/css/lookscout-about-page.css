@@ -670,6 +670,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .branding-write-photo {
+    display: flex;
+  }
+
   .grid-container-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
